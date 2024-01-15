@@ -1,0 +1,16 @@
+---
+import HeaderButton from "./HeaderButton.astro";
+console.log("JavaScript");
+---
+
+<header class="py-8 px-4 mx-auto max-w-xl lg:py-16 lg:px-6 text-white">
+    <div class="mx-auto text-center mb-8 lg:mb-16">
+        <h2>Lanzamientos</h2>
+        <p>Toda la informacion actualizada</p>
+    </div>
+
+    <nav class="flex flex-col items-center justify-between w-full text-center md:flex-row text-white">
+        <HeaderButton href="/">Ultimos lanzamientos</HeaderButton>
+        <HeaderButton href="/">Lanzamientos mas antiguos</HeaderButton>
+    </nav>
+</header>
